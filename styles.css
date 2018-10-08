@@ -1,0 +1,64 @@
+#border{
+    
+    border: 1px solid white;
+    margin:35px;
+    padding: 1px 40 1 40;
+}
+
+
+.item1{
+   /* grid-column: 100%;*/
+    background-color: aqua;
+    
+}
+
+.item2{
+   /* grid-column: 100%;*/
+    margin: 0 0 0 700;
+    padding: 10px 0 0 0;
+    
+}
+.item3{
+   /* grid-column: 100%;*/
+    background-color:gold;
+    
+}
+#fader{
+    text-align: center;
+}
+
+.info{
+    border-bottom: 2px solid black;
+    padding-bottom: 20
+    
+}
+.info2{
+    padding: 0 0 0 40px;
+    margin: -132 0 50 0;
+}
+.info3{
+    padding: 0 0 0 40px;
+    margin: -111 0 0 0;
+}
+
+#phone{
+    //padding: 12px;
+}
+img{
+   
+    border-radius: 100px;
+    border: 1px solid white;
+    mix-blend-mode:multiply;
+    
+}
+
+.content{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.flex-container{
+    display:flex;
+    text-align: center;
+    justify-content: center; 
+}
